@@ -1,0 +1,213 @@
+html {
+  background-color: black;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../images/guitar1.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 36px;
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+.containerA {
+  display: flex;
+  width: 400px;
+  justify-items: right;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+button.stringSix {
+  margin-right: 0px;
+  margin-left: 9px;
+  background-color: #706d6d;
+  border: 1px solid #b6b0ad;
+  border-radius: 30px;
+  box-shadow: #000000 4px 4px 0 0;
+  color: #cabfbf;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0 12px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button.stringFive {
+  margin-right: 4px;
+  margin-left: 50px;
+  background-color: #706d6d;
+  border: 1px solid #bea493;
+  border-radius: 30px;
+  box-shadow: #000000 4px 4px 0 0;
+  color: #cabfbf;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0 12px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button.stringFour {
+  margin-right: -4px;
+  margin-left: 44px;
+  background-color: #706d6d;
+  border: 1px solid #bea493;
+  border-radius: 30px;
+  box-shadow: #000000 4px 4px 0 0;
+  color: #cabfbf;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0 12px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button.stringThree {
+  margin-right: 14px;
+  margin-left: 52px;
+  background-color: #706d6d;
+  border: 1px solid #bea493;
+  border-radius: 30px;
+  box-shadow: #000000 4px 4px 0 0;
+  color: #cabfbf;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0 12px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button.stringTwo {
+  margin-right: 1px;
+  margin-left: 39px;
+  background-color: #706d6d;
+  border: 1px solid #bea493;
+  border-radius: 30px;
+  box-shadow: #000000 4px 4px 0 0;
+  color: #cabfbf;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0 12px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button.stringOne {
+  margin-right: 13px;
+  margin-left: 44px;
+  background-color: #706d6d;
+  border: 1px solid #bea493;
+  border-radius: 30px;
+  box-shadow: #000000 4px 4px 0 0;
+  color: #cabfbf;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0 12px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.stringSix:hover {
+  background-color: #eca1a1;
+}
+
+.stringFive:hover {
+  background-color: #e9c370;
+}
+
+.stringFour:hover {
+  background-color: #f1fc95;
+}
+
+.stringThree:hover {
+  background-color: #94f088;
+}
+
+.stringTwo:hover {
+  background-color: #a2c5f1;
+}
+
+.stringOne:hover {
+  background-color: #eb96ee;
+}
+
+.stringSix:active {
+  box-shadow: #20201f 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.stringFive:active {
+  box-shadow: #20201f 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+.stringFour:active {
+  box-shadow: #20201f 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.stringThree:active {
+  box-shadow: #20201f 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.stringThree:active {
+  box-shadow: #20201f 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.stringTwo:active {
+  box-shadow: #20201f 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.stringOne:active {
+  box-shadow: #20201f 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
