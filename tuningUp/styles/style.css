@@ -28,7 +28,7 @@ h1 {
   height: 800px;
 }
 
-button.stringSix {
+#audio-button6 {
   margin-right: 0px;
   margin-left: 9px;
   background-color: #706d6d;
@@ -49,7 +49,7 @@ button.stringSix {
   touch-action: manipulation;
 }
 
-button.stringFive {
+#audio-button5 {
   margin-right: 4px;
   margin-left: 50px;
   background-color: #706d6d;
@@ -70,7 +70,7 @@ button.stringFive {
   touch-action: manipulation;
 }
 
-button.stringFour {
+#audio-button4 {
   margin-right: -4px;
   margin-left: 44px;
   background-color: #706d6d;
@@ -91,7 +91,7 @@ button.stringFour {
   touch-action: manipulation;
 }
 
-button.stringThree {
+#audio-button3 {
   margin-right: 14px;
   margin-left: 52px;
   background-color: #706d6d;
@@ -112,7 +112,7 @@ button.stringThree {
   touch-action: manipulation;
 }
 
-button.stringTwo {
+#audio-button2 {
   margin-right: 1px;
   margin-left: 39px;
   background-color: #706d6d;
@@ -133,7 +133,7 @@ button.stringTwo {
   touch-action: manipulation;
 }
 
-button.stringOne {
+#audio-button1 {
   margin-right: 13px;
   margin-left: 44px;
   background-color: #706d6d;
@@ -154,60 +154,54 @@ button.stringOne {
   touch-action: manipulation;
 }
 
-.stringSix:hover {
+#audio-button6:hover {
   background-color: #eca1a1;
 }
 
-.stringFive:hover {
+#audio-button5:hover {
   background-color: #e9c370;
 }
 
-.stringFour:hover {
+#audio-button4:hover {
   background-color: #f1fc95;
 }
 
-.stringThree:hover {
+#audio-button3:hover {
   background-color: #94f088;
 }
 
-.stringTwo:hover {
+#audio-button2:hover {
   background-color: #a2c5f1;
 }
 
-.stringOne:hover {
+#audio-button1:hover {
   background-color: #eb96ee;
 }
 
-.stringSix:active {
+#audio-button6:active {
   box-shadow: #20201f 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
-.stringFive:active {
+#audio-button5:active {
   box-shadow: #20201f 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
-.stringFour:active {
-  box-shadow: #20201f 2px 2px 0 0;
-  transform: translate(2px, 2px);
-}
-
-.stringThree:active {
+#audio-button4:active {
   box-shadow: #20201f 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
-.stringThree:active {
+#audio-button3:active {
   box-shadow: #20201f 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
-.stringTwo:active {
+#audio-button2:active {
   box-shadow: #20201f 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
-
-.stringOne:active {
+#audio-button1:active {
   box-shadow: #20201f 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
