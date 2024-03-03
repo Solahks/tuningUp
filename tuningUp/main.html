@@ -7,17 +7,27 @@
     <title>tuningUp</title>
   </head>
   <body>
-    <div class="containerA">
-      <h1>
-        <font color="FF2626" class="t">t</font>
-        <font color="FF9966" class="u">u</font>
-        <font color="FFD523" class="n">n</font>
-        <font color="66CC66" class="i">i</font>
-        <font color="00C1D4" class="n">n</font>
-        <font color="B44FAC" class="g">g</font> Up
+    <div class="float-container">
+      <select id="tuningSelect" class="float-childA">
+        <option value="select" class="tuningSelect">
+          --Please Select Tuning--
+        </option>
+        <option value="standard" class="tuningStandard">Standard Tuning</option>
+        <option value="majorOpenA" class="tuningMajorOpenA">
+          Major Open A
+        </option>
+        <option value="majorOpenB" class="tuningMajorOpenB">
+          Major Open B
+        </option>
+        <option value="majorOpenC" class="tuningMajorOpenC">
+          Major Open C
+        </option>
+      </select>
+      <h1 class="float-child">
+        <font color="black" class="tuning">tuning</font>Up
       </h1>
     </div>
-    <div class="container">
+    <div class="button-wrapper">
       <button id="audio-button6" class="string">6</button>
       <button id="audio-button5" class="string">5</button>
       <button id="audio-button4" class="string">4</button>
