@@ -7,34 +7,24 @@
     <title>tuningUp</title>
   </head>
   <body>
-    <div class="float-container">
-      <select id="tuningSelect" class="float-childA">
-        <option value="select" class="tuningSelect">
-          --Please Select Tuning--
-        </option>
-        <option value="standard" class="tuningStandard">Standard Tuning</option>
-        <option value="majorOpenA" class="tuningMajorOpenA">
-          Major Open A
-        </option>
-        <option value="majorOpenB" class="tuningMajorOpenB">
-          Major Open B
-        </option>
-        <option value="majorOpenC" class="tuningMajorOpenC">
-          Major Open C
-        </option>
+    <wrapper>
+      <select id="menuSelect">
+        <option value="default" id="">--Please Select Tuning--</option>
+        <option value="1" id="E">Standard Tuning</option>
+        <option value="2" id="A">Major Open A</option>
+        <!-- <option value="3" id="B">Major Open B</option>
+        <option value="4" id="C">Major Open C</option> -->
       </select>
-      <h1 class="float-child">
-        <font color="black" class="tuning">tuning</font>Up
-      </h1>
-    </div>
-    <div class="button-wrapper">
-      <button id="audio-button6" class="string">6</button>
-      <button id="audio-button5" class="string">5</button>
-      <button id="audio-button4" class="string">4</button>
-      <button id="audio-button3" class="string">3</button>
-      <button id="audio-button2" class="string">2</button>
-      <button id="audio-button1" class="string">1</button>
-    </div>
+      <h1><font color="black" class="tuning">tuning</font>Up</h1>
+      <div class="button-wrapper">
+        <button id="audio-button6" class="string">6</button>
+        <button id="audio-button5" class="string">5</button>
+        <button id="audio-button4" class="string">4</button>
+        <button id="audio-button3" class="string">3</button>
+        <button id="audio-button2" class="string">2</button>
+        <button id="audio-button1" class="string">1</button>
+      </div>
+    </wrapper>
     <script src="Scripts/main.js"></script>
   </body>
 </html>
