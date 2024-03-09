@@ -1,0 +1,126 @@
+html {
+  margin-right:11vw;
+  background-size: 95%;
+  background-color: rgb(0, 0, 0);
+  background-image: url("../images/guitar1.jpg");
+  background-repeat: no-repeat;
+  font-size: 2vw;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+
+.bodywrap {
+  position: relative;
+  width: 100%;
+}
+
+#menuSelect {
+  margin-left: 3vw;
+  margin-top: 1.5vw;
+  padding-left: 1vw;
+  height: 3.5vw;
+  text-align: left;
+  font-size: 1.75vw;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  background-color: transparent;
+  color:white;
+  border-radius: 3vw;
+}
+
+option {
+  background:black;
+  padding-left: 0vw;
+  height: 1vw;
+  font-size: 1.50vw;
+}
+/* @media screen and(max-width: 900px) {
+  .bodywrap {
+    width: 50%;
+  }
+} */
+
+h1 {
+  margin-top: 1.5vw;
+  left: 68vw;
+  position: absolute;
+  font-size: 3.5vw;
+  font-weight: lighter;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  color: aliceblue;
+}
+
+/* buttons */
+.button-wrapper {
+  position: absolute;
+  top: 14vw;
+  left: 74.5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.string {
+  background-color: #848670;
+  margin-top: .75vw;
+  border-radius: 4vw;
+  border-style: none;
+  color: #ece5ea;
+  cursor: pointer;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 1.5vw;
+  height: 3vw;
+  letter-spacing: .1vw;
+  padding: .5vw 1.5vw;
+  text-align: center;
+}
+
+.string:hover {
+  background: #f6f9fe;
+  color: #e6d81e;
+}
+
+#audio-button6:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+#audio-button5:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+#audio-button4:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+#audio-button3:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+#audio-button2:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+#audio-button1:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
