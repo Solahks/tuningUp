@@ -127,7 +127,6 @@ function updateDropMenu() {
     menu.disabled = true;
     openMenu.disabled = true;
     regMenu.disabled = true;
-
   }
   if (dropMenu.value === "d3") {
     audios = audioFilesDropCSharp;

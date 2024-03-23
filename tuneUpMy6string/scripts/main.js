@@ -22,7 +22,6 @@ let menu = document.getElementById("eStdMenu");
 //listen click on menu, update state
 menu.onchange = updateMenu;
 
-
 //identify what option is selected
 //set state to corresponding audio
 function updateMenu() {
@@ -48,6 +47,8 @@ for (let i = 0; i < mySix.length; i++) {
   mySix[i].addEventListener("click", () => {
     audios[i].play();
     notePics[i].style.visibility = "visible";
-    setTimeout(function(){notePics[i].style.visibility = "hidden";}, 1000)
+    setTimeout(function () {
+      notePics[i].style.visibility = "hidden";
+    }, 1000);
   });
 }
