@@ -18,8 +18,27 @@ const audioFilesOpenA = [
 
 const mySix = document.querySelectorAll(".string");
 
+// const myEStd = [
+//   (document.getElementById("E1").style.visibility = "hidden"),
+//   (document.getElementById("E2").style.visibility = "hidden"),
+//   (document.getElementById("E3").style.visibility = "hidden"),
+//   (document.getElementById("E4").style.visibility = "hidden"),
+//   (document.getElementById("E5").style.visibility = "hidden"),
+//   (document.getElementById("E6").style.visibility = "hidden"),
+// ];
+// console.log(myEStd[0]);
+
+
+const eStdBtnArr = [];
+
+for (let i = 0; i < 6; i++) {
+  const el = document.getElementById(`E${i + 1}`);
+  el.style.visibility = "hidden";
+  eStdBtnArr.push(el);
+}
+
 //establish state
-let menu = document.getElementById("menuSelect");
+let menu = document.getElementById("eStdMenu");
 
 //listen click on menu, update state
 menu.onchange = updateMenu;
@@ -27,13 +46,13 @@ menu.onchange = updateMenu;
 //identify what option is selected
 //set state to corresponding audio
 function updateMenu() {
-  console.log(menu.value);
-  if (menu.value === "1") { //=== or == comparative = is declarative 
-    console.log("option1selected");
+  if (menu.value === "1") {
+    //=== or == comparative = is declarative
     audios = audioFilesStan;
+    notePics = eStdBtnArr;
   }
   if (menu.value === "2") {
-    console.log("option2selected");
+    notePics = null;
     audios = audioFilesOpenA;
   }
   if (menu.value === "0") {
@@ -45,5 +64,10 @@ function updateMenu() {
 for (let i = 0; i < mySix.length; i++) {
   mySix[i].addEventListener("click", () => {
     audios[i].play();
+    notePics[i].style.visibility = "visible";
+    setTimeout(function(){notePics[i].style.visibility = "hidden";}, 1000)
   });
 }
+
+
+// const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
