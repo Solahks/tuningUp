@@ -22,6 +22,7 @@ let menu = document.getElementById("eStdMenu");
 //listen click on menu, update state
 menu.onchange = updateMenu;
 
+
 //identify what option is selected
 //set state to corresponding audio
 function updateMenu() {
@@ -29,9 +30,16 @@ function updateMenu() {
     //=== or == comparative = is declarative
     audios = audioFilesStan;
     notePics = eStdBtnArr;
+    openMenu.disabled = true;
+    regMenu.disabled = true;
+    dropMenu.disabled = true;
   }
   if (menu.value === "0") {
     audios = null;
+    openMenu.disabled = false;
+    regMenu.disabled = false;
+    dropMenu.disabled = false;
+    notePics = null;
   }
 }
 

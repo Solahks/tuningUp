@@ -23,8 +23,22 @@
     <!-- Drop down menus to select tuning -->
     <div class="menuWrap">
       <select id="eStdMenu" class="menus">
-        <option value="0">--Select E Std Tuning--</option>
+        <option value="0">--Select E Standard--</option>
         <option value="e1">E Standard Tuning</option>
+      </select>
+      <select id="dropMenu" class="menus">
+        <option value="d1">--Select Drop Tuning--</option>
+        <option value="d2">Drop D</option>
+        <option value="d3">Drop C♯/Drop D</option>
+        <option value="d4">Drop C</option>
+        <option value="d5">Drop B</option>
+        <option value="d6">Drop A♯/Drop B♭</option>
+        <option value="d7">Drop A</option>
+        <option value="d8">Drop G♯/Drop A♭</option>
+        <option value="d9">Drop F♯/Drop G♭</option>
+        <option value="d10">Drop F</option>
+        <option value="d11">Drop E</option>
+        <option value="d12">Drop D♯/Drop E♭</option>
       </select>
       <select id="openMenu" class="menus">
         <option value="o1">--Select Open Tuning--</option>
@@ -36,15 +50,13 @@
         <option value="o7">Major Open F</option>
         <option value="o8">Major Open G</option>
       </select>
-      <select id="regularMenu" class="menus">
+      <select id="regMenu" class="menus">
         <option value="r1">--Select Regular Tuning--</option>
         <option value="r2">Major Seconds</option>
         <option value="r3">Minor Thirds</option>
-      </select>
-      <select id="dropMenu" class="menus">
-        <option value="d1">--Select Drop Tuning--</option>
-        <option value="d2">Major Open A</option>
-        <option value="d3">Major Open B</option>
+        <option value="r4">Major Thirds</option>
+        <option value="r5">All fourths</option>
+        <option value="r6">Augmented fourths</option>
       </select>
     </div>
     <!-- buttons on strings -->
@@ -58,5 +70,7 @@
     </div>
     <script src="Scripts/main.js"></script>
     <script src="Scripts/openMenu.js"></script>
+    <script src="Scripts/dropMenu.js"></script>
+    <script src="Scripts/regMenu.js"></script>
   </body>
 </html>

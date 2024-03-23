@@ -1,4 +1,4 @@
-const audioFilesOpenA = [
+const audioFilesMajorSeconds = [
   new Audio("audioOpenA/String6LE.mp3"),
   new Audio("audioOpenA/String5A.mp3"),
   new Audio("audioOpenA/String4C.mp3"),
@@ -7,7 +7,7 @@ const audioFilesOpenA = [
   new Audio("audioOpenA/String1HE.mp3"),
 ];
 
-const audioFilesOpenB = [
+const audioFilesMinorThirds = [
   new Audio("audioOpenA/String6LE.mp3"),
   new Audio("audioOpenA/String5A.mp3"),
   new Audio("audioOpenA/String4C.mp3"),
@@ -16,7 +16,7 @@ const audioFilesOpenB = [
   new Audio("audioOpenA/String1HE.mp3"),
 ];
 
-const audioFilesOpenC = [
+const audioFilesMajorThirds = [
   new Audio("audioOpenA/String6LE.mp3"),
   new Audio("audioOpenA/String5A.mp3"),
   new Audio("audioOpenA/String4C.mp3"),
@@ -25,7 +25,7 @@ const audioFilesOpenC = [
   new Audio("audioOpenA/String1HE.mp3"),
 ];
 
-const audioFilesOpenD = [
+const audioFilesAllFourths = [
   new Audio("audioOpenA/String6LE.mp3"),
   new Audio("audioOpenA/String5A.mp3"),
   new Audio("audioOpenA/String4C.mp3"),
@@ -34,7 +34,7 @@ const audioFilesOpenD = [
   new Audio("audioOpenA/String1HE.mp3"),
 ];
 
-const audioFilesOpenE = [
+const audioFilesAugmentedFourths = [
   new Audio("audioOpenA/String6LE.mp3"),
   new Audio("audioOpenA/String5A.mp3"),
   new Audio("audioOpenA/String4C.mp3"),
@@ -43,25 +43,7 @@ const audioFilesOpenE = [
   new Audio("audioOpenA/String1HE.mp3"),
 ];
 
-const audioFilesOpenF = [
-  new Audio("audioOpenA/String6LE.mp3"),
-  new Audio("audioOpenA/String5A.mp3"),
-  new Audio("audioOpenA/String4C.mp3"),
-  new Audio("audioOpenA/String3E.mp3"),
-  new Audio("audioOpenA/String2A.mp3"),
-  new Audio("audioOpenA/String1HE.mp3"),
-];
-
-const audioFilesOpenG = [
-  new Audio("audioOpenA/String6LE.mp3"),
-  new Audio("audioOpenA/String5A.mp3"),
-  new Audio("audioOpenA/String4C.mp3"),
-  new Audio("audioOpenA/String3E.mp3"),
-  new Audio("audioOpenA/String2A.mp3"),
-  new Audio("audioOpenA/String1HE.mp3"),
-];
-
-const mySixOp = document.querySelectorAll(".string");
+const mySixReg = document.querySelectorAll(".string");
 
 //visual notes
 // const eStdBtnArr = [];
@@ -72,67 +54,55 @@ const mySixOp = document.querySelectorAll(".string");
 // }
 
 //establish state
-let openMenu = document.getElementById("openMenu");
+let regMenu = document.getElementById("regMenu");
 
 //listen click on menu, update state
-openMenu.onchange = updateOpenMenu;
+regMenu.onchange = updateRegMenu;
 
 //identify what option is selected
 //set state to corresponding audio
-function updateOpenMenu() {
-  if (openMenu.value === "o1") {
+function updateRegMenu() {
+  if (regMenu.value === "r1") {
     audios = null;
     menu.disabled = false;
-    regMenu.disabled = false;
+    openMenu.disabled = false;
     dropMenu.disabled = false;
   }
-  if (openMenu.value === "o2") {
-    audios = audioFilesOpenA;
+  if (regMenu.value === "r2") {
+    audios = audioFilesMajorSeconds;
     menu.disabled = true;
-    regMenu.disabled = true;
+    openMenu.disabled = true;
     dropMenu.disabled = true;
   }
-  if (openMenu.value === "o3") {
-    audios = audioFilesOpenB;
+  if (regMenu.value === "r3") {
+    audios = audioFilesMinorThirds;
     menu.disabled = true;
-    regMenu.disabled = true;
+    openMenu.disabled = true;
     dropMenu.disabled = true;
   }
-  if (openMenu.value === "o4") {
-    audios = audioFilesOpenC;
+  if (regMenu.value === "r4") {
+    audios = audioFilesMajorThirds;
     menu.disabled = true;
-    regMenu.disabled = true;
+    openMenu.disabled = true;
     dropMenu.disabled = true;
   }
-  if (openMenu.value === "o5") {
-    audios = audioFilesOpenD;
+  if (regMenu.value === "r5") {
+    audios = audioFilesAllFourths;
     menu.disabled = true;
-    regMenu.disabled = true;
+    openMenu.disabled = true;
     dropMenu.disabled = true;
   }
-  if (openMenu.value === "o6") {
-    audios = audioFilesOpenE;
+  if (regMenu.value === "r6") {
+    audios = audioFilesAugmentedFourths;
     menu.disabled = true;
-    regMenu.disabled = true;
-    dropMenu.disabled = true;
-  }
-  if (openMenu.value === "o7") {
-    audios = audioFilesOpenF;
-    menu.disabled = true;
-    regMenu.disabled = true;
-    dropMenu.disabled = true;
-  }
-  if (openMenu.value === "o8") {
-    audios = audioFilesOpenG;
-    menu.disabled = true;
-    regMenu.disabled = true;
+    openMenu.disabled = true;
     dropMenu.disabled = true;
   }
 }
 
 //play audio- can target any audios
-for (let i = 0; i < mySixOp.length; i++) {
-  mySixOp[i].addEventListener("click", () => {
+for (let i = 0; i < mySixReg.length; i++) {
+  mySixReg[i].addEventListener("click", () => {
     audios[i].play();
     //   notePics[i].style.visibility = "visible";
     //   setTimeout(function () {
