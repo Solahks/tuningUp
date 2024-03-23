@@ -142,6 +142,7 @@ h1 {
   font-size: 2vw;
   padding: 0.75vw 1.75vw;
   text-align: center;
+  box-shadow: 2px 1px tan;
 }
 
 .string:hover {
