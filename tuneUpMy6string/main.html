@@ -7,6 +7,11 @@
     <title>tuneUpMy6string</title>
   </head>
   <body>
+    <h1>
+      <font color="black" class="tuning">tuneUpMy</font> <br />
+      6string
+    </h1>
+    <!-- Letters to match notes for each tuning -->
     <div class="eStdNotes">
       <div id="E1">E</div>
       <div id="E2">A</div>
@@ -15,34 +20,34 @@
       <div id="E5">B</div>
       <div id="E6">E</div>
     </div>
-    <h1>
-      <font color="black" class="tuning">tuneUpMy</font> <br />
-      6string
-    </h1>
+    <!-- Drop down menus to select tuning -->
     <div class="menuWrap">
       <select id="eStdMenu" class="menus">
-        <option value="0" id="instruction">
-          --Select E Std Tuning--
-        </option>
-        <option value="1" id="E">E Standard Tuning</option>
-        <option value="2" id="A">Major Open A</option>
+        <option value="0">--Select E Std Tuning--</option>
+        <option value="e1">E Standard Tuning</option>
       </select>
       <select id="openMenu" class="menus">
-        <option value="6" id="instruction">--Select Open Tuning--</option>
-        <option value="7" id="C">Major Open A</option>
-        <option value="8" id="D">Major Open B</option>
+        <option value="o1">--Select Open Tuning--</option>
+        <option value="o2">Major Open A</option>
+        <option value="o3">Major Open B</option>
+        <option value="o4">Major Open C</option>
+        <option value="o5">Major Open D</option>
+        <option value="o6">Major Open E</option>
+        <option value="o7">Major Open F</option>
+        <option value="o8">Major Open G</option>
       </select>
       <select id="regularMenu" class="menus">
-        <option value="9" id="instruction">--Select Regular Tuning--</option>
-        <option value="10" id="E">Major Seconds</option>
-        <option value="11" id="F">Minor Thirds</option>
+        <option value="r1">--Select Regular Tuning--</option>
+        <option value="r2">Major Seconds</option>
+        <option value="r3">Minor Thirds</option>
       </select>
       <select id="dropMenu" class="menus">
-        <option value="12" id="instruction">--Select Drop Tuning--</option>
-        <option value="13" id="G">Major Open A</option>
-        <option value="14" id="H">Major Open B</option>
+        <option value="d1">--Select Drop Tuning--</option>
+        <option value="d2">Major Open A</option>
+        <option value="d3">Major Open B</option>
       </select>
     </div>
+    <!-- buttons on strings -->
     <div class="button-wrapper">
       <button id="audio-button6" class="string">6</button>
       <button id="audio-button5" class="string">5</button>
@@ -52,5 +57,6 @@
       <button id="audio-button1" class="string">1</button>
     </div>
     <script src="Scripts/main.js"></script>
+    <script src="Scripts/openMenu.js"></script>
   </body>
 </html>

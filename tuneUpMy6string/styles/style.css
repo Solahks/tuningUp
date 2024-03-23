@@ -10,19 +10,17 @@ html {
 /*tuning Menus*/
 
 .menuWrap {
-  position:absolute;
+  position: absolute;
   margin-top: 3%;
   margin-bottom: 30%;
   left: 1vw;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
 .menus {
   margin-bottom: 33%;
 }
-
-
 
 #eStdMenu {
   margin-left: 3%;
@@ -98,10 +96,10 @@ h1 {
 
 /*visual text of the notes to match the tuning*/
 .eStdNotes {
-  position:absolute;
+  position: absolute;
   margin-top: 6%;
   color: white;
-  Left: 50vw;
+  left: 50vw;
   top: 1vw;
   font-size: 6vw;
 }
@@ -116,10 +114,10 @@ h1 {
 
 /* buttons */
 .button-wrapper {
-  position:absolute;
+  position: absolute;
   top: 13vw;
   left: 74.5vw;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -132,7 +130,7 @@ h1 {
   cursor: pointer;
   font-family: "Google Sans", Roboto, Arial, sans-serif;
   font-size: 2vw;
-  padding: .75vw 1.75vw;
+  padding: 0.75vw 1.75vw;
   text-align: center;
 }
 
